@@ -1,9 +1,9 @@
 public class linearSearch {
 
-    // Method to perform linear search
+    
     public void linearSearch(int[] array, int nosearch) {
         int n = array.length;
-        boolean found = false; // Flag to check if the number is found
+        boolean found = false; // Flag 
 
         for (int i = 0; i < n; i++) {
             if (array[i] == nosearch) {
